@@ -3,5 +3,6 @@ name = "gtk_rust_headerbar_example"
 version = "0.0.0"
 authors = ["Francisco Gómez <espectalll123@kydara.com>"]
 
-[dependencies]
-gtk = "0.0.6"
+[dependencies.gtk]
+git = "https://github.com/gtk-rs/gtk.git"
+features = ["3.10"]
